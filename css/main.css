@@ -80,3 +80,57 @@ body {
     height: 46px;
     border-radius: 50%;
 }
+
+.special-img span{
+    top:20px;
+    right: 20px;
+}
+
+.special-img:hover img{
+    transform: scale(1.2);
+}
+.special-img img{
+    transition: all 0.3s ease;
+}
+/* Banner */
+#banner{
+    background: url(../images/offer_img.jpg) center/cover;
+}
+#banner.row{
+ min-height:  60vh;
+}
+.banner-content h2{
+    font-size: 28px;
+}
+.text-white{
+    font-size: 40px;
+}
+ /* newsletter */
+ #newsletter p{
+    max-width: 600px;
+ }
+ #newsletter .input-group{
+    max-width: 500px;
+ }
+
+#newsletter .form-control{
+   border-top-left-radius: 25px;
+   border-bottom-left-radius: 25px;
+}
+
+ #newsletter .btn{
+    background-color: var(--pink);
+    color: white;
+    border-color: var();
+ }
+
+#newsletter .btn:hover{
+    background-color: black;
+    border-color: black;
+}
+
+ /* footer */
+ .brand{
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+ }
